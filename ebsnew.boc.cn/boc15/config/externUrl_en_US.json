@@ -1,0 +1,135 @@
+{
+    // ä¸­é“¶ç†è´¢-ä¸­é“¶ç†è´¢è®¡åˆ’II-ä¹°å…¥  controllers\bocWealthMgt\bocWealthMgtII\cBuyingIn.js
+    "url.cBuyingIn": "http://srh.bankofchina.com/search/finprod/getProdPage.jsp?keyword=",
+    // ä¸­é“¶ç†è´¢--ä¸­é“¶ç†è´¢I--äº§å“æŸ¥è¯¢ä¸Žè´­ä¹° controllers\bocWealthMgt\bocWealthMgtI\cWealthProductQuery.js
+    "url.cWealthProductQuery": "http://srh.bankofchina.com/search/finprod/getProdPage.jsp?keyword=",
+    // ä¸­é“¶ç†è´¢-ä¸­é“¶ç†è´¢2-å–å‡º controllers\bocWealthMgt\bocWealthMgtII\cSell.js
+    // ä¸­é“¶ç†è´¢è®¡åˆ’
+    "url.cSell261": "http://www.boc.cn/custserv/cs8/cs84/",
+    // ä¸­é“¶QDII
+    "url.cSell265": "http://www.boc.cn/custserv/cs8/cs83/",
+    // ä¸­é“¶ç†è´¢-ç½‘ä¸Šä¸“å±žç†è´¢-è´¦æˆ·èµ„é‡‘è½¬å‡º controllers\bocWealthMgt\onlineinvest\FinanceTransfer\cFinanceTransfer.js
+    "url.cFinanceTransfer": "http://www.boc.cn/en/custserv/bocnet/200905/t20090506_691101.html",
+    // ä¸­é“¶ç†è´¢-ç½‘ä¸Šä¸“å±žç†è´¢-äº§å“æŸ¥è¯¢ä¸Žè´­ä¹°controllers\bocWealthMgt\onlineinvest\cProductQueryAndBuy.js
+    "url.cProductQueryAndBuy": "http://srh.bankofchina.com/search/finprod/getProdPage.jsp?keyword=",
+    // å­˜æ¬¾ç®¡ç†-é€šçŸ¥å­˜æ¬¾-æ–°å¢žé€šçŸ¥å­˜æ¬¾controllers\deposit\cNewCallDeposit.js
+    "url.cNewCallDeposit": "http://www.boc.cn/finadata/lilv/",
+    // å­˜æ¬¾ç®¡ç† å®šæœŸå­˜æ¬¾ æ–°å¢žå®šæœŸå­˜æ¬¾controllers\deposit\cNewFixedDeposit.js
+    "url.cNewFixedDeposit": "http://www.boc.cn/finadata/lilv/",
+    //  ç»“æ±‡/è´­æ±‡controllers\exchangeSettlement\cFessBuyOrSell.js
+    "url.cFessBuyOrSell": "http://www.boc.cn/custserv/cs7/cs71/201001/t20100125_951498.html",
+    // æ¬¢è¿Žé¡µ å®‰å…¨é¡»çŸ¥
+    "url.saftNote": "http://www.boc.cn/en/custserv/bocnet/200812/t20081212_144520.html",
+    // æ¬¢è¿Žé¡µ æœåŠ¡çƒ­çº¿
+    "url.servicHotlineUrl": "https://ea.ebs.bankofchina.com/contactUs_en.html?locale=en_US",
+    // æ¬¢è¿Žé¡µ controllers\\welcome\\cWelcome.js
+    "url.cWelcome": "https://ebs.boc.cn/BocnetClient/NEWS.do?&_ts=",
+    // ejs bocWealthMgt\bocWealthMgtI\treatyBook.ejs
+    "url.treatyBookEJS": "http://www.boc.cn",
+    // åœ¨çº¿ç”³è¯·ä¿¡ç”¨å¡ templates\creditCard\creditCard3dSet\bind\main.ejs
+    "url.bindMainEJS": "https://apply.mcard.boc.cn/apply/",
+    // åŸºé‡‘å‡€å€¼å…¬å‘Š  templates\mutualFund\beginJiaoYi\index.ejs
+    "url.indexEJS": "http://www.bankofchina.com/sourcedb/sr2/",
+    // ä¸­é“¶å¿«ä»˜æœåŠ¡  templates\skipepay\bocpay\firstSetSuccess.ejs
+    "url.firstSetSuccessEJS": "/bocPatch/shortcutpay/shortcutpay.html?locale=en_US",
+      // å¿«æ·æ”¯ä»˜æœåŠ¡   ç™»é™†å…¥å£-å¿«æ·æ”¯ä»˜æœåŠ¡URL
+    "url.fastPayService": "https://ebspay.boc.cn/QPS/shortcutpay/fastpay.html?locale=en_US",
+    // ç¬¬ä¸‰æ–¹å­˜æ¬¾templates\bondFutures\thirdPartyCustody\confirmationOfThirdPartyCustody\signUp.ejs
+    "url.signUpEjs": "http://srh.bankofchina.com/search/finprod/getSecuritiesTrader.jsp",
+    // å®‰å…¨æŽ§ä»¶ä¸‹è½½åœ°å€
+    "url.secDownloadUrl": "https://dlsev.boc.cn/support/secWidgets/SecEdit.BOC.exe",
+    // æ¬¢è¿Žé¡µ åœ¨çº¿å®¢æœ
+    "url.onlineServiceUrl": "https://95566.boc.cn/mccmmg-bocweb/",
+    // è´µé‡‘å±ž+å¤–æ±‡   è¡Œæƒ…èµ°åŠ¿ é“¾æŽ¥
+    "url.marketTrendUrl": "http://www.boc.cn/marketchart/",
+    // ç™»é™†å…¥å£-åè®®æ”¯ä»˜URL
+    "url.agreedPayLogin": "/bocPatch/agreementpay/agreementPay.html?locale=en_US",
+    // ç™»é™†é¡µé¢URL
+    "url.login": "/boc15/login.html?locale=en_US",
+    //  å¸¸è§é—®é¢˜
+    "url.faq": "http://www.boc.cn/en/custserv/bocnet/200812/t20081213_351103.html",
+    //  CAè¯ä¹¦ä¸‹è½½
+    "url.caDownload": "https://bocnetca.boc.cn/certself/index.jsp",
+    //  ç”µå­é“¶è¡Œç« ç¨‹
+    "url.regulation": "http://www.boc.cn/en/custserv/bocnet/200812/t20081212_144537.html",
+    //  ç½‘é¡µä¸šåŠ¡è§„åˆ™
+    "url.rules": "http://www.boc.cn/en/custserv/bocnet/200812/t20081212_144540.html",
+    // å›žå•éªŒè¯
+    "url.elecbillvalidate":"/boc15/elecbillvalidate.html?locale=en_US",
+    // é“¶å•†è½¬è´¦ä»–è¡Œå®¢æˆ·æŸ¥è¯¢
+    "url.silverTransferBusinessQuery":"/boc15/silverTransferBusinessQuery.html?locale=en_US",
+    //  å›¾ç‰‡å¹¿å‘Š1
+    "url.ad1": "http://www.bocionline.com/sc/home/acc_opening_confirmation.htm?SOURCE_OF_FORM=ONLINECN",
+    //  å›¾ç‰‡å¹¿å‘Š2
+    "url.ad2": "http://bocchongzhi.yeepay.com/",
+    //  å›¾ç‰‡å¹¿å‘Š3
+    "url.ad3": "http://www.boc.cn/pbservice/pb3/200910/t20091029_875622.html",
+    //  USBKeyç®¡ç†å·¥å…·
+    "url.USBKeyMgr": "https://dlsev.boc.cn/support/drivers/BOC_TotalPackage.exe",
+    // åŸºé‡‘-è¡Œæƒ…æŸ¥è¯¢ä¸Žè´­ä¹°-è´­ä¹°-ç”µå­åˆåŒä¹¦
+    "url.EAgreement" : "http://srh.bankofchina.com/search/finprod/getSecuritiesTrader.jsp?keyword=",
+    "url.secDownloadUrl.Mac": "https://dlsev.boc.cn/support/secWidgets/npBOCMACSip_Product.pkg",
+    "url.USBKeyMgr.Mac": "https://dlsev.boc.cn/support/drivers/BOC_Setup.dmg",
+    "url.versionNumber":"66816",
+    //èµ„é‡‘å½’é›†ï¼Œæ´»è½¬å®šæ”¶è´¹æ ‡å‡†é“¾æŽ¥
+    "url.smartTimeDeposit":"http://www.boc.cn/en/custserv/bocnet/200905/t20090506_691101.html",
+    //åœ¨çº¿ç”³è¯·ä¿¡ç”¨å¡
+    "url.creditCardApplyOnline":"https://apply.mcard.boc.cn/apply/",
+     //åœ¨çº¿ç”³è¯·ä¿¡ç”¨å¡é“¾æŽ¥åœ°å€url.creditCardApplyOnlineåŽå¢žåŠ åŽç¼€ï¼Œç”¨äºŽå•ç‹¬ç»Ÿè®¡è¿›ä»¶é‡
+   "url.applySuffix":"fYRVna", 
+    //ATMå–æ¬¾ï¼Œå¯†ç æ±‡æ¬¾æ”¶è´¹æ ‡å‡†
+    "url.atmAndpasswordRemitFee":"http://www.boc.cn/en/custserv/bocnet/200905/t20090506_691101.html",
+    // é¢„ä¿ç•™æ”¯ä»˜ 
+    "url.preretain": "/bocPatch/shortcutpay/preretain.html?locale=en_US",
+    // åœ¨çº¿ç”³è¯·è´·æ¬¾ 
+    "url.loanApplyOnline": "https://ccsa.ebsnew.boc.cn/ALDS/",
+    //å•†æˆ·è·³è½¬é‡è®¾å¯†ç 
+    "url.forward20ToResetPass": "/bocPatch/login/login.html?locale=en_US&forwardToReset=true",
+    //å•†æˆ·è·³è½¬ è¿”å›žé‡é€‰æ”¯ä»˜æ–¹å¼è·³è½¬åœ°å€
+    "url.forwardPGWPortal": "https://ebspay.boc.cn/PGWPortal/RecvRepayOrder.do",
+    //ç§¯åˆ†å•†åŸŽ
+    "url.pointsmall":"https://jf365.boc.cn/BOCGIFTORDERNET/defaultIndex.do",
+    //ä¸­é“¶å›½é™…è¯åˆ¸å¼€æˆ·è·³è½¬
+    "url.internationalOpenAccount":"https://wykh.bocichina.com/bankpage.jsp",
+    //  å•†æˆ·è·³è½¬ ç½‘ä¸Šæ”¯ä»˜å®‰å…¨æç¤º é“¾æŽ¥åœ°å€
+    "url.ebankingSecTips":"http://www.boc.cn/ebanking/security/tips/201302/t20130205_2152055.html",
+    //æ‰¹é‡å·¥å…·ä¸‹è½½åœ°å€
+    "url.batchToolDownloadUrl":"https://dlsev.boc.cn/support/secWidgets/BocBatchTool.exe",
+    //è½¬è´¦äº¤æ˜“é™é¢è¯¦æƒ…
+    "url.transLimitDetails":"http://www.boc.cn/ebanking/service/cs1/201609/t20160909_7702151.html",
+    //è¯åˆ¸æœŸè´§ ä¸­é“¶å›½é™…è¯åˆ¸å¼€æˆ·è·³è½¬
+    "url.securitiesaccount":"https://mentry.bocichina.com/osoa/views/index.html",
+    // ç™»é™†é¡µ -é¢„çº¦å¤–å¸çŽ°é’ž
+    "url.orderForeignCurrencyLogin":"/O2O/O2OPC/F/forCashEntrance.html",
+    // ç™»é™†åŽ-å¤–å¸çŽ°é’žé¢„çº¦-é¢„çº¦ç”³è¯·
+    "url.orderForeignCurrency":"/O2O/O2OPC/F/index.html?R=_ForCash&channel=1",
+    // ç™»é™†åŽ-å¤–å¸çŽ°é’žé¢„çº¦-è®°å½•æŸ¥è¯¢
+    "url.orderForeignCurrencyQuery":"/O2O/O2OPC/F/index.html?R=_ForCashRecord&channel=1",
+    //å…³äºŽè¿œç¦»è¿æ³•è¿è§„å¤–æ±‡äº¤æ˜“çš„é£Žé™©æç¤º
+    "url.tradeRiskTips":"http://www.bankofchina.com/custserv/bi2/201903/t20190322_14995133.html",
+    //è½¬è´¦æ±‡æ¬¾ è°¨é˜²ç”µä¿¡ç½‘ç»œè¯ˆéª—
+    "url.networkTransferFraud":"http://www.boc.cn/ebanking/security/tips/201302/t20130205_2152062.html",
+    // è…¾è®¯è®¾å¤‡æŒ‡çº¹appId
+    "appId":"Production_env_zh",
+    // è…¾è®¯è®¾å¤‡æŒ‡çº¹thost
+    "thost":"https://watcher.boc.cn/f4",
+    // è…¾è®¯è®¾å¤‡æŒ‡çº¹ sdkæ–‡ä»¶å éžie
+    "tencentSdk":"scripts/lib/tfp-sdk.pc.v1.0.0.js",
+    // è…¾è®¯è®¾å¤‡æŒ‡çº¹ sdkæ–‡ä»¶å ie8åŠä»¥ä¸‹
+    "tencentSdkIE":"scripts/lib/tfpie8shm-sdk.pc.v1.0.0.js",
+    // è…¾è®¯è®¾å¤‡æŒ‡çº¹ swfæ–‡ä»¶å
+    "tencentSwf":"scripts/lib/s.swf",
+    //kçº¿åŽå°ASR
+    "kline":"https://openapi.boc.cn/erh/unlogin/",
+    //kçº¿clientid
+    "kline.clientId":"531",
+    //kçº¿client_secret
+    "kline.clientSecret":"0f8486dadab4b129fa9b9e61a3ad301824b4b8ae2e385c11d5",
+    //å­˜æ¬¾ä¿é™©
+    "url.depositInsurance" : "/boc15/depositInsurance.html",
+    //BOCCP_SAP å¹³å°æŽ¥å£é…ç½®
+    "url.bocopSAP":"/SAPboc15/sapfile/",
+    "url.bocopSAP.oauth":"/SAPboc15/bocop/oauth/",
+    "SAP.clentid":"811",
+    "SAP.client_secret":"813f30ead2984d929177982f50a230149e27d07a8a0243aab6"
+}
