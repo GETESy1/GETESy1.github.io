@@ -88,45 +88,10 @@
     </div><iframe id="iframe" class="hide" marginwidth="0" marginheight="0" framespacing="0" frameborder="0" width="100%" height="980px"></iframe>
     <div class="hide editfail" id="msgBox" style="position:absolute;z-index:999;width:590px">
         <div class="bu-pop" style="position:absolute;z-index:999;left:0;top:0">
-            <h4 class="pop-title"><span class="txt" lan="l7282">操作提示</span> <a class="close" href="javascript:void(0);" id="closeMsgBox"></a></h4>
-            <div class="pop-con">
-                <p class="unset"><span id="msgContent">操作失败!</span></p>
-                <p class="btn-box tac" style="margin-bottom:0"><a id="hideMsgBox" class="btn" href="javascript:void(0);"><span class="btn-r" lan="l0315" v="确认"></span></a></p>
-            </div>
         </div><iframe src="" marginwidth="0" framespacing="0" marginheight="0" frameborder="0" width="100%" height="100%" style="left:0; background:rgb(255,255,255); top:0; width:100%; filter:alpha(opacity=0); -moz-opacity: 0; opacity: 0;zoom:1; position:absolute; z-index: 998"></iframe></div>
     <div
         id="_ajaxLoading" class="hide" style="position:absolute; left: 0; top: 0; width: 100%; height:100%; _height:663px; zoom: 1; z-index: 999"><img style="width:32px;height:32px;margin-left:-16px;margin-top:-16px;top:50%;left:50%;position:relative" src="images/ajaxloading-new.gif"></div>
         <script type="text/javascript">
-            // 检测是普通页还是贵宾页
-            (function() {
-                var segment = "1",
-                    search = window.location.search.substr(1),
-                    arr = search.split("&"),
-                    wrapper = document.getElementById("wrapper"),
-                    en = document.getElementById("lan-en"),
-                    zh = document.getElementById("lan-zh"),
-                    i, pair;
-                for (i = arr.length - 1; i >= 0; i--) {
-                    pair = arr[i].split("=");
-                    if (pair[0] == "seg" && pair[1] == 66) {
-                        // 贵宾页
-                        segment = "66";
-                    }
-                    if (pair[0] == "locale" && pair[1].indexOf("en") == 0) {
-                        en.style.display = "none";
-                        zh.style.display = "";
-                        document.body.className = document.body.className + " i18n_en";
-                    } else {
-                        zh.style.display = "none";
-                        en.style.display = "";
-                    }
-                }
-                if (segment == 66) {
-                    wrapper.className = "bu-wrapper login-vip";
-                } else {
-                    wrapper.className = "bu-wrapper";
-                }
-                window.segment = segment;
             })();
         </script>
         <script type="text/javascript" src="scripts/dojo/dojo.js.1.6.1.uncompressed.js?v=20230805134529104"></script>
