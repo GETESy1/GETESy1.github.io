@@ -1,32 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google-Like Search Page</title>
+    <title>goSearch</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="header">
-        <img src="path/to/google-logo.png" alt="Google Logo" class="logo">
-    </div>
-    <div class="search-container">
-        <form id="searchForm">
-            <input type="text" id="searchInput" placeholder="Search Google or type URL" class="search-input">
-            <button type="submit" class="search-button">Google Search</button>
-            <button type="submit" class="search-button">I'm Feeling Lucky</button>
-        </form>
-    </div>
+    <table class="main-table" cellspacing="0" cellpadding="0">
+        <tr>
+            <td class="header-cell">
+                <img src="path/to/logo.png" alt="Logo" class="logo">
+            </td>
+        </tr>
+        <tr>
+            <td class="search-cell">
+                <form id="searchForm">
+                    <input type="text" id="searchInput" placeholder="请输入搜索词" class="search-input">
+                    <button type="submit" class="search-button">搜索</button>
+                </form>
+            </td>
+        </tr>
+    </table>
+
     <div class="footer">
-        <a href="#" class="footer-link">About</a>
-        <a href="#" class="footer-link">Store</a>
-        <a href="#" class="footer-link">Gmail</a>
-        <a href="#" class="footer-link">Images</a>
-        <a href="#" class="footer-link">Maps</a>
-        <a href="#" class="footer-link">More</a>
-        <a href="#" class="footer-link">Settings</a>
-        <a href="#" class="footer-link">Privacy</a>
-        <a href="#" class="footer-link">Terms</a>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">帮助中心</a></li>
+                <li><a href="#">隐私政策</a></li>
+                <li><a href="#">服务条款</a></li>
+            </ul>
+        </div>
+        <div class="about-us">
+            <h2>关于我们</h2>
+            <p>这是一个关于我们的介绍段落，这里可以写一些关于网站的信息。</p>
+        </div>
     </div>
 
     <script src="script.js"></script>
